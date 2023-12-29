@@ -1,0 +1,214 @@
+# License: CC-BY-SA-4.0
+
+GenericVoice1:
+	DefaultVariant: .wav
+	Voices:
+		Select: generic1select1, generic1select2
+		Action: generic1action1, generic1action2
+		Guard: guarding
+
+GenericVoice2:
+	DefaultVariant: .wav
+	Voices:
+		Select: generic2select1, generic2select2
+		Action: generic2action1, generic2action2
+		Guard: guarding
+
+BeastVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: beast_select
+		Action: beast_move
+		Die: beast_die
+
+SeedVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: seed_select
+		Action: seed_move
+		Die: seed_die
+
+WormVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select:
+		Action:
+		Die: worm_death_inspectorj
+
+FlyingMonsterVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select:
+		Action:
+		Move:
+		Die: flyingmonster_death_robinhood76
+
+GenericVoice3:
+	DefaultVariant: .wav
+	Voices:
+		Select: awaiting_orders, im_ready, receiving, yes_sir
+		Move: acknowledged, affirmative, as_you_wish, at_once, en_route, lets_go, move_out, on_my_way, orders_received, ten_four
+		Action: acknowledged, affirmative, as_you_wish, orders_received
+		Attack: attack, destroy_them, hit_them_hard, light_em_up, target_locked, you_got_it
+		Guard: guarding
+
+ShipVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: shipselect1, shipselect2, shipselect3, shipselect4, shipselect5
+		Move: shipmove1, shipmove2, shipmove3, shipmove4
+		Action: shipmove1, shipmove2, shipmove3, shipmove4
+		Attack: shipattack1, shipattack2, shipattack3, shipattack4, shipattack5
+		Guard: guarding
+
+TransportHelicopterVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: copter2_aeronautics_operational, copter2_avionics_online, copter2_awaiting_orders
+		Move: copter2_acknowledged, copter2_affirmative, copter2_heading_to_new_lz, copter2_not_a_problem, copter2_roger_that, copter2_verify_new_coordinate
+		Action: copter2_acknowledged, copter2_affirmative, copter2_not_a_problem, copter2_ready_for_action, copter2_roger_that, copter2_special_delivery
+		Guard: guarding
+
+AttackHelicopterVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: copter_aeronautics_operational, copter_avionics_online, copter_awaiting_orders
+		Move: copter_acknowledged, copter_affirmative, copter_not_a_problem, copter_right_away_sir, copter_roger_that, copter_solid_copy
+		Action: copter_acknowledged, copter_affirmative, copter_not_a_problem, copter_ready_for_action, copter_roger_that, copter_solid_copy, copter_target_acquired
+		Guard: guarding
+
+SaucerVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: saucer_aeronautics_operational, saucer_avionics_online, saucer_awaiting_orders
+		Move: saucer_acknowledged, saucer_affirmative, saucer_not_a_problem, saucer_roger_that
+		Action: saucer_quantum_deconstruction, saucer_vaporising_molecular_levels, sauer_atomising_photon_cannon
+		Guard: guarding
+
+BansheeVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: banshee_aeronautics_operational, banshee_avionics_online, banshee_awaiting_orders, banshee_ready_for_action, banshee_reporting_in
+		Move: banshee_acknowledged, banshee_affirmative, banshee_air_support_inbound, banshee_not_a_problem, banshee_roger_that
+		Action: banshee_acknowledged, banshee_affirmative, banshee_air_support_inbound, banshee_cleared_to_engage, banshee_not_a_problem, banshee_roger_that
+		Guard: guarding
+
+GunshipVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: ship2_acknowledged, ship2_aeronautics_operational, ship2_awaiting_orders, ship2_ready_for_action
+		Move: ship2_affirmative, ship2_closing_in, ship2_not_a_problem, ship2_roger_that
+		Action: ship2_affirmative, ship2_discharging_munitions, ship2_not_a_problem, ship2_roger_that, ship2_sweep_the_area
+		Guard: guarding
+
+DropshipVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: dropship_aeronautics_operational, dropship_avionics_online, dropship_awaiting_orders, dropship_ready_for_action
+		Move: dropship_acknowledged, dropship_affirmative, dropship_destination_set, dropship_not_a_problem, dropship_roger_that
+		Action: dropship_acknowledged, dropship_affirmative, dropship_keep_those_skies_clear, dropship_not_a_problem, dropship_roger_that
+		Unload: dropship_touching_down
+		Guard: guarding
+
+BalloonVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: balloon_aeronautics_operational, balloon_avionics_online, balloon_awaiting_orders, balloon_ready_for_action, balloon_sensors_aligned, balloon_surveillance_active
+		Move: balloon_acknowledged, balloon_affirmative, balloon_not_a_problem, balloon_optimising_updraft, balloon_roger_that
+		Guard: guarding
+
+SpeederVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: ship1_aeronautics_operational, ship1_avionics_online, ship1_awaiting_orders, ship1_ready_for_action
+		Move: ship1_acknowledged, ship1_affirmative, ship1_roger_that, ship1_not_a_problem, ship1_thrusters_engaged
+		Action: ship1_acknowledged, ship1_affirmative, ship1_roger_that, ship1_fire_the_missiles, ship1_intercepting_hostiles
+		Guard: guarding
+
+DroneVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: droneselect1, droneselect2, droneselect3, droneselect4
+		Move: droneaction1, droneaction2, droneaction3, droneaction4
+		Action: droneattack1, droneattack2, droneattack3, droneattack4
+		Guard: guarding
+
+MinerVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: miner_any_orders, miner_copy, miner_im_ready, miner_ready_and_waiting, miner_reporting_in, miner_sir
+		Move: miner_acknowledged, miner_affirmative, miner_at_once, miner_good_copy, miner_enroute, miner_move_orders_confirmed, miner_on_my_way, miner_roger_that, miner_ten_four, miner_yes_sir
+		Action: miner_yes_sir, miner_acknowledged, miner_affirmative, miner_at_once, miner_roger_that, miner_yes_sir
+		Deploying: miner_deploying
+
+TechnicianVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: technician_copy, technician_ready, technician_roger, technician_sir, technician_technician
+		Move: technician_acknowledged, technician_affirmitive, technician_going, technician_good_copy, technician_got_it, technician_lets_go, technician_ok, technician_yeap, technician_yes_sir
+		Action: technician_capturing, technician_gotcha, technician_obtaining, technician_ok, technician_yes_sir
+
+StealthTankVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: stealthtank_copy, stealthtank_Im_waiting, stealthtank_orders, stealthtank_ready, stealthtank_ready_for_action, stealthtank_sir, stealthtank_stealthtank, stealthtank_receiving
+		Move: stealthtank_acknowledged, stealthtank_affirmative, stealthtank_at_once, stealthtank_good_copy, stealthtank_move_out, stealthtank_moving, stealthtank_they_wont_see_me, stealthtank_quickly
+		Action: stealthtank_consider_it_dead, stealthtank_engaging, stealthtank_leave_no_survivors, stealthtank_missile_barrage, stealthtank_shoot_to_kill, stealthtank_target, stealthtank_fire_the_missiles
+		Guard: guarding
+
+BuilderVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: builder_awaiting_orders, builder_builder_ready, builder_copy, builder_im_ready, builder_ready_to_expand, builder_receiving, builder_sir, builder_orders
+		Move: builder_acknowledged, builder_affirmative, builder_as_you_wish, builder_at_once, builder_enroute, builder_good_copy, builder_lets_go, builder_move_out, builder_on_my_way, builder_yes_sir
+		Action: builder_acknowledged, builder_affirmative, builder_as_you_wish, builder_at_once, builder_good_copy, builder_yes_sir
+		Deploying: builder_deploying, builder_expanding, builder_setting_up, builder_taking_position
+		Guard: guarding
+
+FlamePodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: flamepod_copy, flamepod_I_need_orders, flamepod_im_listening, flamepod_need_a_light, flamepod_ready_to_burn, flamepod_receiving, flamepod_tanks_full, flamepod_ready_to_ignite
+		Move: flamepod_affirmative, flamepod_as_you_wish, flamepod_going, flamepod_good_copy, flamepod_on_my_way, flamepod_roger_that, flamepod_yes_sir, flamepod_ten_four, flamepod_whatever
+		Action: flamepod_burn_alive, flamepod_cleansing_fire, flamepod_purge_them, flamepod_with_pleasure, flamepod_set_them_on_fire, flamepod_eradicate, flamepod_hahaha, flamepod_I_love_that_smell
+		Guard: guarding
+
+BrokerPodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: brokerpod_copy, brokerpod_hacker_ready, brokerpod_im_ready, brokerpod_receiving, brokerpod_waiting, brokerpod_sir
+		Move: brokerpod_acknowledged, brokerpod_at_once, brokerpod_good_copy, brokerpod_gotcha, brokerpod_lets_go, brokerpod_move_out, brokerpod_moving, brokerpod_yes_sir, brokerpod_as_you_wish
+		Action: brokerpod_acknowledged, brokerpod_at_once, brokerpod_good_copy, brokerpod_gotcha, brokerpod_yes_sir, brokerpod_as_you_wish
+		Deploying: brokerpod_deploying, brokerpod_setting_up, brokerpod_stealing_money, brokerpod_taking_position
+		Guard: guarding
+
+ElitePodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: elitepod_all_systems_ready, elitepod_avionics_online, elitepod_awaiting_your_orders, elitepod_copy, elitepod_optimal_height, elitepod_ready, elitepod_receiving, elitepod_systems_checked
+		Move: elitepod_acknowledged, elitepod_as_you_wish, elitepod_at_once, elitepod_changing_location, elitepod_flying_high, elitepod_good_copy, elitepod_new_destination_set, elitepod_on_my_way, elitepod_orders_recieved, elitepod_right_away_sir, elitepod_yes_sir, elitepod_ten_four
+		Action: elitepod_engaging, elitepod_lethal_force_engaged, elitepod_target_locked, elitepod_weapons_hot, elitepod_yes_sir, elitepod_destroy, elitepod_waste_them, elitepod_death_from_above
+		Guard: guarding
+
+BomberPodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: bomberpod_select1, bomberpod_select2, bomberpod_select3, bomberpod_select4
+		Move: bomberpod_action1, bomberpod_action2, bomberpod_action3, bomberpod_action4
+		Action: bomberpod_attack1, bomberpod_attack2, bomberpod_attack3, bomberpod_attack4
+		Guard: guarding
+
+CivilianPodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: civilianpod_yes, civilianpod_hmmm, civilianpod_im_here, civilianpod_what_do_you_want
+		Move: civilianpod_going, civilianpod_ok, civilianpod_sure, civilianpod_yep, civilianpod_aha, civilianpod_good
+		Action: civilianpod_aha, civilianpod_cool, civilianpod_good, civilianpod_sure, civilianpod_yep
+
+ElectricPodVoice:
+	DefaultVariant: .wav
+	Voices:
+		Select: electricpod_battery_cells_charged, electricpod_capacitors_ready, electricpod_copy, electricpod_fully_charged, electricpod_listening, electricpod_ready, electricpod_receiving, electricpod_sir, electricpod_waiting
+		Move: electricpod_acknowledged, electricpod_affirmative, electricpod_at_once, electricpod_good_copy, electricpod_moving_out, electricpod_yes_sir, electricpod_moving, electricpod_alright, electricpod_orders_received
+		Action: electricpod_discharging, electricpod_extra_crispy, electricpod_its_fried, electricpod_lighting_ball, electricpod_maxium_power, electricpod_short_circuit, electricpod_surge_current, electricpod_attack, electricpod_high_voltage_on, electricpod_feel_the_thunder
+		Guard: guarding

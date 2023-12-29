@@ -1,0 +1,4 @@
+[[actions]]
+os = "windows"
+name = "OpenHV"
+path = "OpenHV.exe"
